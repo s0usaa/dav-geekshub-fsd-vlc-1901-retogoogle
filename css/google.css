@@ -4,11 +4,6 @@ body{
     font-size: 14px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 /*Cabecera*/
 
 #head{
@@ -47,22 +42,36 @@ a{
     border-radius: 50%;
 }
 
+.headletra{
+    text-decoration: none;
+    color: black;
+}
+
+.headletra:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 /*Cuerpo del medio*/
 
 #main{
-    background-color: chocolate;
     height: 70vh;
 }
 
 #imgmain{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 15vh;
+    align-items: end;
+    height: 20vh;
+}
+
+#google{
+    height: 13vh;
 }
 
 #search{
-    height: 8vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,20 +79,106 @@ a{
 
 input{
     width: 40vw;
+    height: 5vh;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgba(201, 201, 201, 0.757);
+    outline: none;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+input:hover{
+    border: 0.2em solid rgba(128, 128, 128, 0.136);
+    box-shadow: 0.5em 0.5em 1em 0.2em rgba(0,0,0,0,0.234);
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 10px;
+}
+.botones{
+    height: 5vh;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(242, 241, 241, 0.872);
+    color: rgb(105, 105, 105);
+}
+
+#idiomas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+p{
+    color: rgb(105, 105, 105);
+}
+
+.lenguas{
+    color: blue;
+    text-decoration: none;
+}
+
+.lenguas:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*Parte de abajo*/
 
 #footer{
-    background-color: darkgray;
     height: 20vh;
+    background-color: rgba(242, 241, 241, 0.872);
 }
 
 #up{
     height: 10vh;
-    background-color: bisque;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    color: rgb(105, 105, 105);
+    border-bottom: solid rgba(105, 105, 105, 0.257) 1px;
 }
 
 #down{
     height: 10vh;
+    display: flex;
+    align-items: center;;
+}
+
+#footer-izq{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+#footer-mid{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-der{
+    width: 30vw;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.footletra{
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+}
+
+.footletra:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

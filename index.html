@@ -11,27 +11,53 @@
     <!-- Cabecera con 2 col -->
     <div id="head">
         <div id="izq">
-            <a href="">Sobre Google</a>
-            <a href="">Tienda</a>
+            <a class="headletra" href="">Sobre Google</a>
+            <a class="headletra" href="">Tienda</a>
         </div>
         <div id="der">
-            <div><a href="">Gmail</a></div>
-            <div><a href="">Imagenes</a></div>
+            <div><a class="headletra" href="">Gmail</a></div>
+            <div><a class="headletra" href="">Imagenes</a></div>
             <div><img class="imghead" src="./img/menu.png" alt="Menu"></div>
             <div><img class="imgperfil" src="./img/perfil.jpeg" alt="Perfil"></div>
         </div>
     </div>
     <!-- Cuerpo central con 4 filas -->
     <div id="main">
-        <div id="imgmain"><img src="./img/google2.png" alt="google" height="100%"></div>
-        <div id="search"><input type="text"></div>
-        <div>botones</div>
-        <div>idiomas</div>
+        <div id="imgmain">
+            <img id="google" src="./img/google2.png" alt="google">
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <div id="botones">
+            <button type="button" class="botones">Buscar con Google</button>
+            <button class="botones">Voy a tener suerte</button>
+        </div>
+        <div id="idiomas">
+            <p>Ofrecido por Google en:</p>
+            <a class="lenguas" href="www.google.cat">català</a>
+            <a class="lenguas" href="www.google.es">galego</a>
+            <a class="lenguas" href="google.com">euskara</a>
+        </div>
     </div>
     <!-- Footer con 2 filas y 3 col -->
     <div id="footer">
-        <div id="up">arriba</div>
-        <div id="down">abajo</div>
+        <div id="up">España</div>
+        <div id="down">
+            <div id="footer-izq">
+                <a class="footletra" href="">Publicidad</a>
+                <a class="footletra" href="">Empresa</a>
+                <a class="footletra" href="">Como funciona la Busqueda</a>
+            </div>
+            <div id="footer-mid">
+                <a class="footletra" href="">Emision neutra de carbono desde el 2007</a>
+            </div>
+            <div id="footer-der">
+                <a class="footletra" href="">Privacidad</a>
+                <a class="footletra" href="">Terminos</a>
+                <a class="footletra" href="">Configuracion</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
