@@ -9,6 +9,8 @@ a{
     color: black;
 }
 
+/*Cabecera*/
+
 #head{
     height: 10vh;
     display: flex;
@@ -45,10 +47,32 @@ a{
     border-radius: 50%;
 }
 
+/*Cuerpo del medio*/
+
 #main{
     background-color: chocolate;
     height: 70vh;
 }
+
+#imgmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+#search{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 40vw;
+}
+
+/*Parte de abajo*/
 
 #footer{
     background-color: darkgray;
